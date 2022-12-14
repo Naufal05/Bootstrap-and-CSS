@@ -1,0 +1,116 @@
+#### UI Libraries - Bootstrap
+- has predefined logic.
+- has predefined classes.
+- predefined style sheet
+- it creates a standard approach so that everyone can understand.
+- Bootstrap is the mother of UI lib, ie of Tailwind CSS, Materail UI etc.
+- reponsive website- suto adjust based on the screen size.
+
+note : you can use both bootstrap classes and custom classes together.
+
+How to use ?
+
+1. Local copy - 
+  - download the bootstrap css sheets and JS sheet.
+  - Add them in the html doc.
+2. Remote copy
+  - css and js sheets available remotely, ie server/cloud/VM etc
+    1. CDN concept
+        - the sheets are hosted in a public server which is managed by some internet companies.
+        It is free of cost.
+        Google
+        stackpath
+        jsdeliver
+        bootstrap
+        maxcdn
+        ...etc
+    2. Developer hosting in own server and providing the path in the HTML document.
+
+(it is better to go for CDN which maintained by other companies.)
+
+
+integrity attribute - for security pupose
+crossorigin -to add the data from other servers.
+
+In css for responsive website, you should - CSS media queries
+In bootstrap, you have to define classes for every screen size.
+
+#Screen size
+
+
+# Containers
+-> wrapper which wraps different elements together.
+  1) Container 
+        width -80%
+  2) container-fluid
+      widht - 100%
+
+
+How to use multiple classes together ?
+How to use classes and ids together ?
+How to use clasess with id together ?
+inside the class - it goes in an order.
+id > class
+
+## GRID SYSTEM
+bootstrap works on a 12 columns work system.
+
+## COLORS IN BOOTSTRAP
+    danger - red
+    success - green
+    primary - blue
+    warning - oraange
+    Dark    - Black
+    Light   - white
+    Secondary- Grey
+    Info    - sky blue
+    etc......
+
+1. text-colorname => text-danger
+2. bg-danger  (background-clor in css)
+
+#######   COMPONENTS IN BOOTSTRAP #######
+
+#Important componenets in Bootstrap
+Notes
+Button groups/lists
+carousel/Slider
+Bootstrap cards
+Cards in slider
+
+1. Button component
+  => the class is represented by  -   btn
+    eg: btn-successs
+2 Navbar
+  There are many approaches:
+  1. table approach
+  2. List approach
+  3. Anchor tag
+  etc......
+
+
+3. Button Group
+  - Collection of Buttons - looks like a menu.
+    <div class="btn-group" role="group">
+  
+  
+  Padding -> p 0 to 5
+    - px
+    - pe
+    - ps -
+    - py
+    - pt
+    - pb
+  Margin - m 0 to 5
+    - mx - margin x axis
+    - me - margin east/end
+    - ms - margin-start
+    - my - margin y axis
+    - mt - margin top
+    - mb - margin bottom
+
+  Cards
+
+  DropDown
+
+  Navbar
